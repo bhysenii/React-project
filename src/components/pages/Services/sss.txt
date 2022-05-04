@@ -1,0 +1,36 @@
+import React from "react";
+import './Services.css';
+import { Link } from 'react-router-dom';
+import { IconContext } from "react-icons/lib";
+
+
+function ServicesData () {
+    return (
+        <IconContext.Provider>
+        <div>
+            <div className="ServicesContainer">
+                <h1 className="heading1">Our Services</h1>
+                <div className='ServicesWrapper'>
+                    <div className='ServicesCard'>
+                        <h2 className="heading">Software Develop</h2>
+                        <p>dfkldfjjdklfjkldfsklfdsfklsdfjkldsklfklsdfklsdjklfdskjl</p>
+                    </div>
+                    <div className='ServiceCard'>
+                        <h2 className="heading">Software Develop</h2>
+                        <p>dfkldfjjdklfjkldfsklfdsfklsdfjkldsklfklsdfklsdjklfdskjl</p>
+                    </div>
+                    <div className='ServiceCard'>
+                        <h2 className="heading">Software Develop</h2>
+                        <p>dfkldfjjdklfjkldfsklfdsfklsdfjkldsklfklsdfklsdjklfdskjl</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </IconContext.Provider>
+    )
+};
+
+
+
+
+export default ServicesData;
